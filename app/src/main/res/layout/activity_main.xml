@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.elaine.activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首个界面"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        />
+
+    <EditText
+        android:id="@+id/textOne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="————请输入文本————"
+        android:textColorHint="#99CCFF"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转第二页"
+        android:id="@+id/button"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textOne"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
